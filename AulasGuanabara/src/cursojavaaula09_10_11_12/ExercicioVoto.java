@@ -20,7 +20,7 @@ public class ExercicioVoto {
 			System.out.println("Você não pode votar.");
 		} else {
 			if ((idade >= 16 && idade < 18) || (idade > 70)){
-				System.out.println("Você pode optar por votar, mas não é obrigatório.");
+				System.out.println("Você pode optar por votar, mas não é obrigatório!");
 			} else {
 				System.out.println("Você deve votar.");
 			} 
